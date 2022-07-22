@@ -1,9 +1,12 @@
 {
+  "homepage": "https://domwokorach.github.io/bbc-air-quality",
   "name": "bbc-airquality",
   "version": "1.0.0",
   "description": "You have been given some data by the editorial department in the `./src/data` directory.",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh pages -d build",
     "test": "jest",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -33,6 +36,7 @@
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.18.6",
     "@babel/preset-react": "^7.18.6",
-    "@types/leaflet": "^1.7.11"
+    "@types/leaflet": "^1.7.11",
+    "gh-pages": "^4.0.0"
   }
 }
