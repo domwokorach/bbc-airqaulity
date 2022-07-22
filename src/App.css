@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body,
+html {
+  font-family: "Open Sans", serif;
+  font-size: 100%;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.row {
+  text-align: center;
+  padding: 10px;
+}
+
+.mapId {
+  height: 480px;
+}
+
+.city {
+  font-size: 6vw;
+}
+
+.aqi {
+  font-size: 10vw;
+}
+
+.aqiFace-white {
+  filter: invert(1);
+  max-width: 40%;
+  height: auto;
+}
+
+.aqiFace-black {
+  max-width: 40%;
+  height: auto;
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
