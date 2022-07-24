@@ -1,31 +1,27 @@
 {
-  "homepage": "https://domwokorach.github.io/bbc-air-quality",
-  "name": "bbc-airquality",
-  "version": "1.0.0",
-  "description": "You have been given some data by the editorial department in the `./src/data` directory.",
-  "main": "index.js",
+  "name": "bbc-air-quality",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "leaflet": "^1.3.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-leaflet": "^2.1.4",
+    "react-scripts": "^2.1.2",
+    "react-side-effect": "^2.1.2",
+    "react-table": "^7.8.0",
+    "reactstrap": "^6.5.0"
+  },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy":"gh pages -d build",
-    "test": "jest",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "author": "Dominic Wokorach-O",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.2.0",
-    "jest": "^28.1.3",
-    "jest-dom": "^4.0.0",
-    "leaflet": "^1.8.0",
-    "node-modules": "^1.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-leaflet": "^2.1.4",
-    "react-test-library": "^0.0.1",
-    "reactstrap": "^9.1.2"
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
@@ -33,10 +29,9 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.18.6",
-    "@babel/preset-react": "^7.18.6",
-    "@types/leaflet": "^1.7.11",
-    "gh-pages": "^4.0.0"
-  }
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Dominic Wokorach-O",
+  "license": "ISC"
 }
