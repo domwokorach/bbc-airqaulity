@@ -61,6 +61,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <header className="App-header">BBC News</header>
         <Head aqi={this.state.aqi} />
         <div className="container-fluid justify-content-center h-100">
           <div className="row ">
