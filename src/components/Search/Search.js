@@ -5,13 +5,8 @@ export default class Search extends Component {
     return (
       <div>
         <form onSubmit={this.props.updateState}>
-          <input
-            className="input-put"
-            type="text"
-            name="city"
-            placeholder="City..."
-          />
-          <button className="btn-search">Get Air Quality</button>
+          <input type="text" name="city" placeholder="City..." />
+          <button>Check Air Quality</button>
         </form>
       </div>
     );
